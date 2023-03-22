@@ -1,0 +1,22 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas 
+{
+    animation-name: colors;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors 
+{
+    from {box-shadow: 1px 1px 38px rgb(225, 114, 114);}
+    to {box-shadow: 1px 1px 38px rgb(191, 106, 184);}
+}
